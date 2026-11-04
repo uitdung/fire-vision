@@ -1,0 +1,17 @@
+{
+  "name": "yolov8n_416",
+  "arch": "yolov8n",
+  "task": "detect",
+  "input_size": 416,
+  "class_names": [
+    "smoke",
+    "fire"
+  ],
+  "fire_index": 1,
+  "fire_conf": 0.1,
+  "fire_conf_by_format": {
+    "pytorch": 0.1,
+    "ncnn": 0.1,
+    "tflite_int8": 0.15
+  }
+}

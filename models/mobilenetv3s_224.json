@@ -1,0 +1,14 @@
+{
+  "name": "mobilenetv3s_224",
+  "arch": "mobilenetv3s",
+  "input_size": 224,
+  "color": "RGB",
+  "resize": "bilinear, no crop",
+  "input_range": "0-255 (normalization is inside the model)",
+  "class_names": [
+    "fire",
+    "nofire"
+  ],
+  "fire_index": 0,
+  "threshold": 0.5
+}
